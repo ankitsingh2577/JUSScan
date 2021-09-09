@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">JUSScan</string>
+    <string name="text_home">Scan Speech</string>
+    <string name="text_notifications">QR Scan</string>
+    <string name="text_search">Scan To Image</string>
+
+    <string name="menu_home">Scan Speech</string>
+    <string name="menu_search">Scan Image</string>
+    <string name="menu_notifications">QR Scan</string>
+    <string name="image_to_pdf">Image To PDF</string>
+    <string name="and">"QR Scanner"</string>
+    <string name="toast_no_images">No Images selected</string>
+    <string name="creating_pdf">Creating PDF</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="example">Example : abc</string>
+    <string name="toast_name_not_blank">Name cannot be blank</string>
+
+
+    <string name="pdf_ext" translatable="false">.pdf</string>
+    <string name="pdf_dir" translatable="false">/PDFfiles/</string>
+    <string name="pdf_type" translatable="false">application/pdf</string>
+
+    <string name="please_wait">Please Wait</string>
+    <string name="populating_list">Fetching files. This may take a while</string>
+
+    <string name="main">Main</string>
+    <string name="viewFiles">View Files</string>
+
+    <string name="toast_permissions_given">Permissions Given!</string>
+    <string name="toast_insufficient_permissions">Insufficient Permissions!</string>
+    <string name="toast_images_added">Images added</string>
+    <string name="toast_file_renamed">File renamed.</string>
+    <string name="toast_file_not_renamed">File can\'t be renamed.</string>
+    <string name="toast_no_pdfs">No PDFs right now</string>
+    <string name="toast_file_deleted">File deleted.</string>
+    <string name="toast_file_not_deleted">File can\'t be deleted.</string>
+    <string name="toast_multipleFiles_deleted" formatted="false">%d files deleted.</string>
+
+    <string name="toast_no_pdf_app">No app to read PDF File</string>
+    <string name="open_file">Open File</string>
+    <string name="done">done</string>
+    <string name="sort">Sort</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_date">Date</string>
+
+    <string name="toast_error_getCropped">Error on getting cropped images</string>
+    <string name="toast_imagecropped">Images cropped</string>
+    <string name="cropImage_activityTitle">Crop image No.</string>
+    <string name="snackbar_pdfCreated">PDF created!</string>
+    <string name="snackbar_viewAction">View</string>
+    <string name="image_options_text">Image Enhancement Options</string>
+    <string name="innovation_makes_a_follower_into_a_leader_n_er_chandan_prasad">INNOVATION MAKES A FOLLOWER INTO A LEADER\n - Er. Chandan Prasad</string>
+    <string name="help">Help</string>
+    <string name="about_us">About Us</string>
+    <string name="open_existing_image"> Open Existing Image </string>
+    <string name="save">Save</string>
+    <string name="click_save_to_pdf"><![CDATA[Click & Save to PDF]]></string>
+    <string name="tap_me_take_pic">Tap Me Take Pic</string>
+    <string name="image_to_pdf_scanner">Image To PDF Scanner</string>
+    <string name="save_text_as_doc">Save Text As DOC</string>
+    <string name="save_as_pdf"> Save As PDF </string>
+    <string name="text_scanner"> Text Scanner </string>
+    <string name="start_scan"> Start Scan </string>
+    <string name="save_as_text">Save As Text</string>
+    <string name="save_as_doc">Save As DOC</string>
+    <string name="spech_to_text">Spech To Text</string>
+    <string name="tap_on_mic_to_speek">Tap On Mic To Speek</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="clear">Clear</string>
+    <string name="welcome_to_jusscan">Welcome To JUSScan</string>
+</resources>

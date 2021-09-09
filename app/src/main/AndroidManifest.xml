@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dilip.ankit.chandan.sagar.jusscan">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mainlogo_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_mainlogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ScanText"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".QR_Scan"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ImageToPDF"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Main_Screen"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SpeechText"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ImagetoPDFOption"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ClickToPDF"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode|ocr" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                />
+        </provider>
+
+        <activity android:name=".Welcome_Screen"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About"
+            android:roundIcon="@drawable/logo"
+            android:icon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Help"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Help_speech"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Help_QR"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Help_ScanText"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Help_ImagetoPDF"
+            android:icon="@drawable/logo"
+            android:roundIcon="@drawable/logo"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

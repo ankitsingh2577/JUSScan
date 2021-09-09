@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".Main_Screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcome_to_jusscan"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_weight="3"
+        android:textStyle="bold|italic"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="7">
+        <GridLayout
+            android:id="@+id/GridLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:rowCount="2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/speechtotext"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/speech_to_text" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_PDF"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image_to_pdf" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imagetotext"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image_to_text" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/qr_scan"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/qr_to_text" />
+        </GridLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

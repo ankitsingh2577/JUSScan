@@ -1,0 +1,22 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/help"
+        android:title="@string/help"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+    <item android:id="@+id/about"
+        android:title="@string/about_us"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+    <item android:id="@+id/clear"
+        android:title="@string/clear"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        />
+</menu>
